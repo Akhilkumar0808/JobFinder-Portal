@@ -1,0 +1,585 @@
+/* =========================
+   GLOBAL USER STYLING
+========================= */
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #a3c2f8;
+}
+
+/* =========================
+   FORM CONTAINER
+========================= */
+
+.form-container {
+  width: 350px;
+  margin: 80px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+}
+
+/* =========================
+   INPUT FIELDS
+========================= */
+
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: 0.3s;
+}
+
+.form-container input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+.primary-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #007bff;
+  color: white;
+  font-size: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.primary-btn:hover {
+  background: #0056b3;
+}
+
+.secondary-btn {
+  margin-top: 10px;
+  border: none;
+  background: transparent;
+  color: #007bff;
+  cursor: pointer;
+}
+
+/* =========================
+   ERROR MESSAGE
+========================= */
+
+.error-text {
+  color: red;
+  margin-top: 10px;
+}
+
+/* =========================
+   DASHBOARD
+========================= */
+
+.dashboard-container {
+  padding: 20px;
+}
+
+.dashboard-title {
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+
+/* =========================
+   DASHBOARD NAV BUTTONS
+========================= */
+
+.dashboard-nav {
+  margin: 20px 0;
+}
+
+.dashboard-nav button {
+  padding: 10px 18px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #e0e0e0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.dashboard-nav button:hover {
+  background: #007bff;
+  color: white;
+}
+
+/* =========================
+   JOB CARD
+========================= */
+
+.job-card {
+  background: rgb(250, 250, 250);
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.job-card h3 {
+  margin: 0;
+}
+
+.job-card p {
+  margin: 5px 0;
+}
+
+/* =========================
+   APPLY BUTTON
+========================= */
+
+.apply-btn {
+  padding: 8px 15px;
+  border: none;
+  background: #28a745;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.apply-btn:hover {
+  background: #1e7e34;
+}
+
+/* =========================
+   APPLICATION CARD
+========================= */
+
+.application-card {
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* =========================
+   INTERVIEW CARD
+========================= */
+
+.interview-card {
+  background: #fff3cd;
+  border-left: 6px solid #ffc107;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* =========================
+   STATUS BADGE
+========================= */
+
+.status {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.status.applied {
+  background: #e2e3e5;
+}
+
+.status.accepted {
+  background: #d4edda;
+}
+
+.status.rejected {
+  background: #f8d7da;
+}
+
+
+
+.page-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+.job-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 18px;
+  margin-bottom: 18px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: 0.3s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.job-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.job-info {
+  margin-top: 6px;
+  color: #555;
+}
+.apply-btn {
+  margin-top: 12px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.apply-btn:hover {
+  background-color: #0056b3;
+}
+
+.apply-btn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+.profile-section {
+  border: 1px solid #ddd;
+  padding: 18px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  background-color: #fafafa;
+}
+
+.profile-section h3 {
+  margin-bottom: 12px;
+  color: #333;
+}
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input-field:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0,123,255,0.4);
+}
+.primary-btn {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.primary-btn:hover {
+  background-color: #1e7e34;
+}
+
+.secondary-btn {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #6c757d;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* ===== Page Layout ===== */
+
+.profile-container {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+
+/* ===== Section Styling ===== */
+
+.profile-section {
+  margin-bottom: 30px;
+  padding: 18px;
+  border-radius: 12px;
+  background: #f9fafb;
+  border: 1px solid #e6e6e6;
+}
+
+.profile-section h3 {
+  margin-bottom: 15px;
+  color: #34495e;
+}
+
+
+/* ===== Input Styling ===== */
+
+.profile-input,
+.profile-textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 14px;
+  border-radius: 8px;
+  border: 1px solid #dcdcdc;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.profile-textarea {
+  min-height: 90px;
+  resize: none;
+}
+
+.profile-input:focus,
+.profile-textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 6px rgba(0,123,255,0.3);
+}
+
+
+/* ===== Buttons ===== */
+
+.primary-btn {
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  background: #007bff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.primary-btn:hover {
+  background: #0056b3;
+}
+
+.secondary-btn {
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  background: #6c757d;
+  color: white;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+
+/* ===== View Mode Cards ===== */
+
+.view-card {
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background: #f5f7fa;
+  border-left: 5px solid #007bff;
+}
+
+.view-card p {
+  margin: 6px 0;
+}
+
+
+/* ===== Dropdown Menu ===== */
+
+.profile-menu {
+  position: absolute;
+  right: 20px;
+  top: 60px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.12);
+  padding: 10px;
+  width: 150px;
+}
+
+.profile-menu p {
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.profile-menu p:hover {
+  background: #f1f1f1;
+}
+
+
+/*Search page
+/* Full Page */
+.page-container {
+  min-height: 100vh;
+  padding: 40px 60px;
+  background: linear-gradient(to right, #e0e2e7, #1e293b);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Page Title */
+.page-title {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+/* Search Box */
+.search-box {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto 40px auto;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: none;
+  font-size: 15px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.search-box:focus {
+  box-shadow: 0 0 10px rgba(37, 99, 235, 0.6);
+}
+
+/* Job Grid */
+.job-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+/* Job Card */
+.job-card {
+  background: #f1f5f9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Job Title */
+.job-title {
+  font-size: 20px;
+  color: #4d64a5;
+  margin-bottom: 10px;
+}
+
+/* Card Text */
+.card-text {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #d6dde7;
+}
+
+/* Apply Button */
+.primary-btn {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  background: linear-gradient(to right, #2563eb, #1d4ed8);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.primary-btn:hover {
+  background: linear-gradient(to right, #1d4ed8, #1e40af);
+  transform: scale(1.03);
+}
+
+/* Loading State (Optional if you add) */
+.loading-text {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .page-container {
+    padding: 20px;
+  }
+
+  .page-title {
+    font-size: 22px;
+  }
+
+  .search-box {
+    max-width: 100%;
+  }
+}
+
+
+/* Scrolling Section
+/* Auto Scroll Wrapper */
+.auto-scroll-wrapper {
+  width: 100%;
+  overflow: hidden;
+  background: #ffffff;
+  padding: 10px 0;
+  margin: 15px 0;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Scrolling Content */
+.auto-scroll-content {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scrollLeft 10s linear infinite;
+}
+
+/* Each Job Item */
+.scroll-item {
+  font-size: 14px;
+  color: #bb1f1f;
+  margin-right: 50px;
+}
+
+/* Animation */
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
