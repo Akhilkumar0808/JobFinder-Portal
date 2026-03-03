@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route} from "react-router-dom";
+import { HashRouter, Routes, Route,BrowserRouter} from "react-router-dom";
 //UserDashboard
 import Login from "./userpage/Login";
 import Register from "./userpage/Register";
@@ -24,7 +24,7 @@ import LoginSelection from "./auth/LoginSelection";
 import AdminLogin from "./Admin/AdminLogin";
 function App() {
   return (
-   <HashRouter>
+   <BrowserRouter>
     
     {/* UserDashboard */}
       <Routes>
@@ -112,7 +112,7 @@ function App() {
 
 </Routes>
       
-   </HashRouter>
+   </BrowserRouter>
   );
 }
 
