@@ -30,18 +30,10 @@ function App() {
       <Routes>
         <Route path="/" element={<JobPortal />} />
         <Route path="/select-login" element={<LoginSelection />} /> 
-        {/* <Route path="/login" element={<Login />} /> */}
+        <Route path="/login" element={<Login />} />
         <Route path="/user-login" element={<Login />} />
         <Route path="/register" element={<Register />} /> 
-        {/* <Route path="/" element={<LoginSelection />} /> */}
-
-<Route path="/admin-login" element={<AdminLogin />} />
-<Route path="/employer-login" element={<EmployerLogin />} />
-<Route path="/employer-register" element={<EmployerRegister />} />
-
-
-  <Route path="/profile" element={<Profile/>}/>
-        <Route path="/search" element={<SearchJobs />} />
+        <Route path="/" element={<LoginSelection />} />
 
         <Route
           path="/dashboard"
@@ -51,6 +43,14 @@ function App() {
             </ProtectedRoute>
           }
         />
+<Route path="/admin-login" element={<AdminLogin />} />
+<Route path="/employer-login" element={<EmployerLogin />} />
+<Route path="/employer-register" element={<EmployerRegister />} />
+
+
+  <Route path="/profile" element={<Profile/>}/>
+        <Route path="/search" element={<SearchJobs />} />
+
       
       {/* EmployerDashBoard */}
       
