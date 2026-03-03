@@ -24,7 +24,7 @@ import LoginSelection from "./auth/LoginSelection";
 import AdminLogin from "./Admin/AdminLogin";
 function App() {
   return (
-   <BrowserRouter>
+   <>
     
     {/* UserDashboard */}
       <Routes>
@@ -112,7 +112,7 @@ function App() {
 
 </Routes>
       
-    </BrowserRouter>
+   </>
   );
 }
 
