@@ -30,7 +30,7 @@ function App() {
       <Routes>
         <Route path="/" element={<JobPortal />} />
         <Route path="/select-login" element={<LoginSelection />} /> 
-        <Route path="/" element={<Login />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/user-login" element={<Login />} />
         <Route path="/register" element={<Register />} /> 
         <Route path="/" element={<LoginSelection />} />
