@@ -5,6 +5,7 @@ import Register from "./userpage/Register";
 import UserDashboard from "./userpage/UserDashboard";
 import ProtectedRoute from "./auth/ProtectedRoute";
 import Profile from "./userpage/profile/Profile";
+import Jobportal from "./auth/Jobportal";
 import {auth} from "./firebase"
 import SearchJobs from "./userpage/profile/SearchJobs";
 //EmployerDashboard
@@ -19,16 +20,15 @@ import EmployerApplications from "./employer/EmployerApplications";
 import EmployerInterviews from "./employer/EmployerInterviews";
 //AdminPage
 import AdminDashboard from "./Admin/AdminDashboard";
-import JobPortal from "./auth/jobPortal";
 import LoginSelection from "./auth/LoginSelection";
 import AdminLogin from "./Admin/AdminLogin";
 function App() {
   return (
-   <BrowserRouter>
+   <HashRouter>
     
     {/* UserDashboard */}
       <Routes>
-        <Route path="/" element={<JobPortal />} />
+        <Route path="/" element={<Jobportal />} />
         <Route path="/select-login" element={<LoginSelection />} /> 
         <Route path="/login" element={<Login />} />
         <Route path="/user-login" element={<Login />} />
@@ -112,7 +112,7 @@ function App() {
 
 </Routes>
       
-   </BrowserRouter>
+   </HashRouter>
   );
 }
 

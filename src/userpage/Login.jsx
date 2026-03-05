@@ -3,7 +3,8 @@ import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth, db } from "../firebase";
 import { doc, getDoc } from "firebase/firestore";
 import { useNavigate } from "react-router-dom";
-
+import Header from "../Components/Header";
+import Jobportal from "../auth/Jobportal";
 function Login() {
 
   const [email, setEmail] = useState("");

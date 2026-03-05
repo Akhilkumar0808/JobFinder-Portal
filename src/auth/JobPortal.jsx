@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./portal.css";
 
-function JobPortal() {
+function Jobportal() {
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -21,4 +21,4 @@ function JobPortal() {
   );
 }
 
-export default JobPortal;
+export default Jobportal;
